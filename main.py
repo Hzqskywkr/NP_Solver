@@ -4,7 +4,7 @@ from NPSolver.CVRPSolver import CVRPSolver
 from NPSolver.SATSolver import SATSolver
 #example for using maxcut solver
 #maxcut_solver = MaxcutSolver("./maxcut_instances/w63x63_8bit.csv")
-#best_vector, best_energy =maxcut_solver.solver()
+#best_vector, max_cut_edge =maxcut_solver.solver()
 #example for using tsp solver
 #tsp_solver = TSPSolver("./tsp_instances/burma14.xml","./tsp_instances/burma14.tsp")
 #best_vector, best_energy =tsp_solver.solver()
