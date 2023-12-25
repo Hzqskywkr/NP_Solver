@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<travellingSalesmanProblemInstance>
+
+  <name>test</name>
+
+  <source>TSPLIB</source>
+
+  <description>test</description>
+
+  <doublePrecision>15</doublePrecision>
+
+  <ignoredDigits>5</ignoredDigits>
+
+  <graph>
+    <vertex>
+      <edge cost="4.000000000000000e+00">1</edge>
+      <edge cost="3.000000000000000e+00">2</edge>
+      <edge cost="5.660000000000000e+00">3</edge>
+      <edge cost="4.470000000000000e+00">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="4.000000000000000e+00">0</edge>
+      <edge cost="5.000000000000000e+00">2</edge>
+      <edge cost="4.000000000000000e+00">3</edge>
+      <edge cost="4.470000000000000e+00">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.000000000000000e+00">0</edge>
+      <edge cost="5.000000000000000e+00">1</edge>
+      <edge cost="4.120000000000000e+00">3</edge>
+      <edge cost="7.280000000000000e+00">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="5.660000000000000e+00">0</edge>
+      <edge cost="4.000000000000000e+00">1</edge>
+      <edge cost="4.120000000000000e+00">2</edge>
+      <edge cost="8.240000000000000e+00">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="4.470000000000000e+00">0</edge>
+      <edge cost="4.470000000000000e+00">1</edge>
+      <edge cost="7.280000000000000e+00">2</edge>
+      <edge cost="8.240000000000000e+00">3</edge>
+    </vertex>
+  </graph>
+
+</travellingSalesmanProblemInstance>

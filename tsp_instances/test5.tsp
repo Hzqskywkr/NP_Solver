@@ -1,0 +1,14 @@
+NAME: test5
+TYPE: TSP
+COMMENT: 5-points (test)
+DIMENSION: 5
+EDGE_WEIGHT_TYPE: GEO
+EDGE_WEIGHT_FORMAT: FUNCTION 
+DISPLAY_DATA_TYPE: COORD_DISPLAY
+NODE_COORD_SECTION
+   1  0.0      0.0
+   2  4.0       0.0
+   3  0.0       3.0
+   4  4.0       4.0
+   5  2.0       -4.0
+EOF
