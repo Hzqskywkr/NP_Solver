@@ -17,7 +17,7 @@ from NPSolver.SATSolver import SATSolver
 #print('Total value',value)
 #print('Total weight', weight)
 
-#example for using qkp solver
+#example for using qap solver
 qap_solver = QAPSolver("./qap_instances/nug8.dat")
 permut, min_cost = qap_solver.solver()
 print('min cost',min_cost)
