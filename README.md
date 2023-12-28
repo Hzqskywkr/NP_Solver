@@ -1,5 +1,5 @@
 # NP_Solver
-An NP problem solver based on Matrix-Vector Multiplication. Currently, it contains algorithms for solving five kinds of np problems: maxcut, qkp/kp, sat, tsp, and cvrp. Each problem is modeled by QUBO and then solved by an algorithm similar to Ising annealing. The solving algorithm of each problem is encapsulated into a solver class and an API interface is provided for calling. The main function shows the calls to each solver. For example, only the following 3 lines are needed to solve an instance of the maximum cut problem：  
+An NP problem solver based on Matrix-Vector Multiplication. Currently, it contains algorithms for solving six kinds of np problems: maxcut, qkp/kp, qap, sat, tsp, and cvrp. Each problem is modeled by QUBO and then solved by an algorithm similar to Ising annealing. The solving algorithm of each problem is encapsulated into a solver class and an API interface is provided for calling. The main function shows the calls to each solver. For example, only the following 3 lines are needed to solve an instance of the maximum cut problem：  
 ```
 from NPSolver.MaxcutSolver import MaxcutSolver     
 maxcut_solver = MaxcutSolver("./maxcut_instances/w63x63_8bit.csv")  
