@@ -1,0 +1,6 @@
+weight for vertex
+1
+1
+1
+1
+1

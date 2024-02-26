@@ -1,0 +1,13 @@
+c Lines that start with a c are comments. There is one line at the start
+c which starts with either "p edge" or "p col", followed by the number of
+c vertices and the (possibly incorrect) number of edges. The e lines each
+c describe an edge. Some files have blank lines.
+p edge 5 8
+e 1 2
+e 1 5
+e 2 3
+e 2 4
+e 2 5
+e 3 4
+e 3 5
+e 4 5
